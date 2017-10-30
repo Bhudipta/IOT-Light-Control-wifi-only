@@ -24,3 +24,17 @@ To build/install WiringPi library
 
 cd wiringPi
 ./build
+
+Installing a Web Server
+
+Install Apache HTTP server and its PHP extension by:
+
+sudo apt-get install apache2 php5 libapache2-mod-php5
+
+Navigate to the browser and type your Pi's IP address.
+You should see an It works! page.
+
+Navigate to "/var/www/" directory using cd /var/www/ command
+Type the Command - sudo chmod777 index.php. Now you will be able to edit the php file.
+
+
